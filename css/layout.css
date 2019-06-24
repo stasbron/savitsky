@@ -1,0 +1,272 @@
+@media screen and (max-width: 1300px){
+    
+nav ul li a {
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    
+  }
+}
+
+
+@media screen and (max-width: 1050px){
+    
+    nav ul li a {
+        font-family: 'Raleway', sans-serif;
+        padding: 10px 10px;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+        
+      }
+    }
+
+
+@media screen and (max-width: 1250px){
+    .about h1{
+        font-size: 70px;
+    }
+
+    .big_info{
+       flex-direction: column;
+    }
+
+    .info img{
+        align-self: center;
+        margin: auto;
+        display: block;
+        height: 350px;
+        width: 350px;
+        flex: none;  
+    }
+
+
+    .service1 h3, .service2 h3, .service3 h3, .service4 h3{
+        font-size: 15px;
+    }
+
+    .service1 p, .service2 p, .service3 p, .service4 p{
+        font-size: 13px;
+    }
+
+    .parallax{
+        display: none;
+    }
+
+    .testimonial .card{
+        margin: 10px;
+      }
+
+}
+
+
+@media screen and (max-width: 1100px){
+    .partners{
+        display: none;
+    }
+
+
+}
+
+
+@media screen and (max-width: 750px){
+    nav{
+        display: none;
+    }
+    aside {
+        display: block;
+        padding: 20px 14px;
+        margin: 0;
+      }
+      aside ul {
+        margin: 0 0 50px 0;
+        padding: 0;
+      }
+      aside li {
+        list-style: none;
+      }
+      aside a {
+        font-family: 'Raleway', sans-serif;
+        display: block;
+        padding: 35px 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3em;
+        margin-right: 0;
+      }
+      aside a:hover {
+        color: #ff569a;
+      }
+      
+     
+      
+      .close {
+        background: #ff569a;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+      }
+      .close:before {
+        transform: rotate(45deg);
+      }
+      .close:after {
+        transform: rotate(-45deg);
+      }
+      .close:before, .close:after {
+        content: "";
+        width: 5px;
+        height: 30px;
+        background: #F1F1F1;
+        position: absolute;
+        right: 17px;
+        top: 5px;
+        -webkit-transition: all 0.1s ease-in-out;
+        -moz-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
+      }
+      .close:hover {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+      }
+      .close:hover:before {
+        height: 20px;
+        right: 22px;
+      }
+      .close:hover:after {
+        height: 20px;
+        right: 22px;
+        top: 15px;
+      }
+      
+      .mobile-sidebar {
+        bottom: 0;
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: -1000px;
+        width: 75%;
+        max-width: 300px;
+        background: rgb(55, 32, 85);
+        z-index: 10;
+        box-shadow: 5px 0 5px 0 rgba(0, 0, 0, 0.1);
+        padding-top: 60px;
+      }
+      
+      .side-toggle {
+        margin: 20px auto;
+        padding-top: 20px;
+        font-size: 1.2em;
+        line-height: 25px;
+        display: inline-block;
+      }
+      
+      .toggle {
+        cursor: pointer;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        border-radius: 4px;
+        padding: 11.5px 11.5px;
+        float: left;
+        margin-top: -10px;
+        margin-right: 10px;
+        background: #ff569a;
+      }
+      .toggle span {
+        background: #F1F1F1;
+        width: 40px;
+        height: 4px;
+        margin-bottom: 6px;
+        display: block;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+      .toggle span:last-of-type {
+        margin-bottom: 0;
+      }
+      .toggle:hover {
+        margin-top: -12px;
+      }
+      .toggle:hover span {
+        margin-bottom: 10px;
+      }
+      .toggle:hover span:nth-of-type(2) {
+        background: none;
+        position: relative;
+      }
+      .toggle:hover span:nth-of-type(2):after {
+        font-family: 'Raleway', sans-serif;
+        content: "MENU";
+        font-weight: 900;
+        font-size: 0.65em;
+        color: #F1F1F1;
+        top: -10.5px;
+        position: absolute;
+      }
+      .toggle:hover span:last-of-type {
+        margin-bottom: 0;
+      }
+      
+      .open {
+        display: block;
+      }
+      
+}
+
+
+
+@media screen and (max-width: 700px){
+    .about h1{
+        font-size: 50px;
+    }
+
+    .info img{
+        align-self: center;
+        margin: auto;
+        display: block;
+        height: 250px;
+        width: 250px;
+        flex: none;  
+    }
+
+    
+    .big_text{
+      font-size: 15px;
+      margin: 40px 70px;
+    }
+
+    .service{
+        flex-direction: column;
+    }
+------------------------------------------------------------------------------*/
+
+}
+
+
+@media screen and (max-width: 500px){
+    .about{
+        background-image: url(../img/bgsmall.jpg);
+    }
+
+    .about h1{
+        font-size: 35px;
+    }
+    
+    .big_text{
+      font-size: 13px;
+    }
+
+    .end-of-site-icons img {
+        margin-right: 5px;
+        margin-left: 5x;
+    }
+
+}
